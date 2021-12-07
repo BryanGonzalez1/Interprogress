@@ -1,0 +1,143 @@
+body {
+  background: #134E5E;
+  background: -webkit-gradient(linear, left top, right top, from(#71B280), to(#134E5E));
+  background: linear-gradient(to right, #71B280, #134E5E);
+  color: transparent;
+  margin-bottom: 45px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+}
+
+.sesion {
+  margin: auto;
+  margin-top: 15%;
+  margin-bottom: 11%;
+  max-width: 460px;
+  max-height: 600px;
+  min-width: 200px;
+  min-height: 400px;
+  -webkit-box-shadow: 0px 11px 30px rgba(214, 214, 214, 0.75);
+          box-shadow: 0px 11px 30px rgba(214, 214, 214, 0.75);
+  background: #ffffff;
+  border-color: #ffffff;
+  border-width: 7px;
+  border-style: solid;
+  border-radius: 18px;
+  padding: 5px;
+  text-align: center;
+}
+
+.login-btn {
+  font-family: "Roboto", sans-serif;
+  background: #02fd7f;
+  color: #1d1d1d;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: auto;
+  border: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 10px;
+  position: relative;
+  width: 250px;
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  font-size: 19px;
+  color: black;
+}
+
+input.contenedortext {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  resize: vertical;
+}
+
+input.contenedortext:focus {
+  border-color: dodgerBlue;
+  -webkit-box-shadow: 0 0 8px 0 dodgerBlue;
+          box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+select.contenedortext {
+  max-width: 75%;
+  height: auto;
+  font-size: 15px;
+  border: 2px solid #00BCD4;
+  border-radius: 4px;
+  outline: none;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+select.contenedortext:focus {
+  border-color: dodgerBlue;
+  -webkit-box-shadow: 0 0 8px 0 dodgerBlue;
+          box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.opcion {
+  font-size: 15px;
+}
+
+.button {
+  background: #02fd7f;
+  color: #1d1d1d;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: auto;
+  border: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 10px;
+  position: relative;
+  width: 250px;
+  height: 50px;
+}
+
+.button::after {
+  font-weight: 400;
+  position: absolute;
+  left: 80%;
+  top: 54%;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.button:hover {
+  background: #2b2bff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 6px 15px #0000ff61;
+          box-shadow: 0px 6px 15px #0000ff61;
+  color: #ffffff;
+}
+
+.button::after {
+  opacity: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #ffffff;
+}
+/*# sourceMappingURL=iniciar_sesion.css.map */
