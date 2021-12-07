@@ -1,0 +1,307 @@
+body{
+    background-image: url(/image/fondo_2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+#btn{
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+    text-align: center;
+}
+input{
+  width: 250px;
+  height: 69px;
+  padding: 0px 10px 0px 10px;
+  opacity: 90%;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.37);
+  background: #0097a7;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px 3px 3px 3px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+#contenedor{
+    width: 100%;
+    margin-top:10%;
+    text-align: center;
+}
+.tarjetas{
+    display: inline-block;
+    width: 308px;
+    height: 408px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 18px;
+}
+div#ambienteControl{
+    background-image: url(/image/mControl.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: inherit;
+    height: inherit;
+    
+}
+div#valoracionRiesgo{
+    background-image: url(/image/mValoracion.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: inherit;
+    height: inherit;
+}
+div#actividadesControl{
+    background-image: url(/image/mSControl.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: inherit;
+    height: inherit;
+}
+div#sitemaInformacion{
+    background-image: url(/image/mInfromacion.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: inherit;
+    height: inherit;
+}
+div#sistemaControlInterno{
+    background-image: url(/image/mAControl.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: inherit;
+    height: inherit;
+}
+div#info{
+    overflow: hidden;
+    position:absolute;
+    width: inherit;
+    height: inherit;
+    background-color:rgba(0, 0, 0, 0.863);
+    border-radius: 18px;
+    -webkit-transition: opacity 0.2s;
+    opacity: 0;
+}
+
+div#ambienteControl:hover div#info{
+    opacity: 1;
+}
+div#valoracionRiesgo:hover div#info{
+    opacity: 1;
+}
+div#actividadesControl:hover div#info{
+    opacity: 1;
+}
+div#sitemaInformacion:hover div#info{
+    opacity: 1;
+}
+div#sistemaControlInterno:hover div#info{
+    opacity: 1;
+}
+p#headline{
+    color: rgb(0, 251, 42);
+    font-size: 21px;
+    margin: auto;
+    width: 280px;
+    text-align: center;
+    margin-top: 418px;
+    -webkit-transition: margin 0.3s;
+}
+
+p#info2{
+    margin: auto;
+    width: 280px;
+    text-align: justify;
+    margin-top: 418px;
+    -webkit-transition: margin 0.3s;
+}
+
+div#ambienteControl:hover p#headline{
+    margin-top: 20px;
+}
+
+div#ambienteControl:hover p#info2{
+    margin-top: 70px;
+    color: white;
+}
+
+div#valoracionRiesgo:hover p#headline{
+    margin-top: 20px;
+}
+
+div#valoracionRiesgo:hover p#info2{
+    margin-top: 70px;
+    color: white;
+}
+
+div#actividadesControl:hover p#headline{
+    margin-top: 20px;
+}
+
+div#actividadesControl:hover p#info2{
+    margin-top: 70px;
+    color: white;
+}
+
+div#sitemaInformacion:hover p#headline{
+    margin-top: 20px;
+}
+
+div#sitemaInformacion:hover p#info2{
+    margin-top: 70px;
+    color: white;
+}
+
+div#sistemaControlInterno:hover p#headline{
+    margin-top: 20px;
+}
+
+div#sistemaControlInterno:hover p#info2{
+    margin-top: 70px;
+    color: white;
+}
+#tipo{
+    width: inherit;
+    height: 50px;
+    position: fixed;
+    background-color: #035f56;
+    padding-top: 10px;
+    margin-bottom: 50   px;
+    color: white;
+    font-size: 20px;
+}
+
+.button {
+    
+    background: #02fd7f;
+    color: #1d1d1d;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: auto;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    position: relative;
+    width: 250px;
+    height: 50px;
+}
+.button::after {
+    font-weight: 400;
+    position: absolute;
+    left: 80%;
+    top: 54%;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover {
+    background: #2b2bff;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #0000ff61;
+ 
+    color: #ffffff;
+}
+.button::after {
+    opacity: 1;
+    transition: all 0.5s;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+div.titulo{
+    width: 100%;
+    height: 60px;
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+h1{
+    font-size: 40px;
+    background: linear-gradient(#ffffff,#2cdd00);
+    -webkit-background-clip: text;
+    color: transparent;
+ 
+}
+.Sin_menu{
+    width: 800px;
+    height: 400px;
+    background: rgba(255, 0, 0, 0.575);
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 50PX;
+    padding-top: 80px;
+    text-align: center;
+    border-color: #ffffff52;
+    border-width: 7px;
+    border-style: solid;
+    border-radius:18px;
+    box-shadow: 0px 11px 30px rgba(223, 12, 12, 0.801);
+    transition: 1s;
+}
+.Sin_menu:hover{
+    background: #e70808b0;
+    border-color: #ffffffb9;
+}
+.titulo_error{
+    color: white;
+    font-size: 25px;
+    width: 800px;
+    text-align: center;
+}
+.adv{
+    width: 130px;
+    height: 125px;
+    margin-top: 50px;
+}
+
+.est_incorrecto{
+    box-shadow: 0px 11px 30px rgba(243, 4, 4, 0.883);
+    border-color: #e20505c0;
+}
+.est_incompleto{
+    box-shadow: 0px 11px 30px rgba(255, 238, 0, 0.918);
+    border-color: #cfc202a6;
+}
+.correcto{
+    box-shadow: 0px 11px 30px rgba(51, 255, 0, 0.945);
+    border-color: #189b008a;
+}
+
+.info_semaforo{
+    width: inherit;
+    box-shadow: 0px 11px 30px rgba(214, 214, 214, 0.75);
+    background: #ffffff9f;
+    border-color: #ffffff52;
+    border-width: 7px;
+    border-style: solid;
+    border-radius:18px;
+    margin-left: 10px;
+    transition-duration: 1s;
+    margin-top: 50px;
+}
+.info_semaforo:hover{
+    background: #fffffff1;
+    border-color: #ffffffb9;
+}

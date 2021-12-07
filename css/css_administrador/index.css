@@ -1,0 +1,243 @@
+html{
+    background-image: url(/image/fondo_2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+div.titulo{
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 40px;
+    background: linear-gradient(#ffffff,#2cdd00);
+    -webkit-background-clip: text;
+    color: transparent;
+ 
+}
+.contenedor{
+    width: 100%;
+    height: 100px;
+}
+.contenedor_form{
+    float: left;
+    width: 380px;
+    margin-right: 125px;
+}
+.formulario{
+    width: inherit;
+    box-shadow: 0px 11px 30px rgba(214, 214, 214, 0.75);
+    background: #ffffff9f;
+    border-color: #ffffff52;
+    border-width: 7px;
+    border-style: solid;
+    border-radius:18px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 50px;
+    transition-duration: 1s;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.formulario:hover{
+    background: #fffffff1;
+    border-color: #ffffffb9;
+}
+.info_semaforo{
+    width: inherit;
+    box-shadow: 0px 11px 30px rgba(214, 214, 214, 0.75);
+    background: #ffffff9f;
+    border-color: #ffffff52;
+    border-width: 7px;
+    border-style: solid;
+    border-radius:18px;
+    padding: 5px;
+    margin-left: 50px;
+    transition-duration: 1s;
+}
+.info_semaforo:hover{
+    background: #fffffff1;
+    border-color: #ffffffb9;
+}
+h2.h2semaforo{
+    font-size: 15px;
+}
+h2{
+    font-size: 20px;
+}
+h2.titulo{
+    font-size: 25px;
+    color: #009688;
+}
+.contenedortext{
+    width:300px;
+    height: 25px;
+    font-size: 20px;
+    border:2px solid #00BCD4;
+    border-radius:4px;
+    text-align: center;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+.contenedortext:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+.contenedorArea{
+    width:300px;
+    height: 100px;
+    font-size: 20px;
+    border:2px solid #00BCD4;
+    border-radius:4px;
+    text-align: justify;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    resize: none;
+}
+.contenedorArea:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+
+
+.button {
+    margin-top: 30px;
+    background: #02fd7f;
+    color: #1d1d1d;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: auto;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    position: relative;
+    width: 200px;
+    height: 50px;
+}
+.button::after {
+    font-weight: 400;
+    position: absolute;
+    left: 80%;
+    top: 54%;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover {
+    background: #2b2bff;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #0000ff61;
+ 
+    color: #ffffff;
+}
+.button::after {
+    opacity: 1;
+    transition: all 0.5s;
+    color: #ffffff;
+}
+
+.contenedor_data{
+    text-align: center;
+    width: 1225px;
+    height: 700px;
+    padding: 5px;
+    text-align:left;
+    margin-left: 50px;
+    transition-duration: 1s;
+    font-size: 20px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+}
+.contenedor_data::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;  
+}
+.contenedor_data::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+/* CSS TARJETAS */
+
+.tarjetas{
+    display: inline-block;
+    width: 250px;
+    height: 290px;
+    margin: 20px;
+    border-radius: 20px;
+    background-image: url(/image/oficina.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition:  0.5s;
+    color:black;
+    overflow: hidden;
+}
+
+.est_incorrecto{
+    box-shadow: 0px 11px 30px rgba(243, 4, 4, 0.883);
+    border-color: #e20505c0;
+}
+.est_incompleto{
+    box-shadow: 0px 11px 30px rgba(255, 238, 0, 0.918);
+    border-color: #cfc202a6;
+}
+.correcto{
+    box-shadow: 0px 11px 30px rgba(51, 255, 0, 0.945);
+    border-color: #189b008a;
+}
+/* LETRAS TARJETAS */
+.titulo_tarjeta{
+    color: black;
+    background: white;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;
+    width: 250px;
+    text-align: center;
+}
+.codigo_tarjeta{
+    color: black;
+    background: white;
+    font-size: 15px;
+    margin: 0;
+    width: 250px;
+    text-align: center;
+}
+.informacion{
+    color: white;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 225px;
+    text-align:justify;
+    opacity: 0;
+    transition:  0.5s;
+}
+/* EFECTOS HOVER TARJETAS */
+.tarjetas:hover .informacion{
+    opacity: 1;
+}
+.tarjetas:hover{
+    border-radius: 0px;
+    height: 280px;
+    background: #1d1d1d;
+    color:white;
+    width: inherit;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,226 @@
+html{
+    background-image: url(/image/fondo_2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+div.titulo{
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+h1{
+    font-size: 40px;
+    background: linear-gradient(#ffffff,#2cdd00);
+    -webkit-background-clip: text;
+    color: transparent;
+ 
+}
+.contenedor{
+    width: 100%;
+    height: 100px;
+}
+.contenedor{
+    width: 100%;
+    height: 100px;
+}
+.contenedor_form{
+    float: left;
+    width: 380px;
+    margin-right: 125px;
+}
+.contenedor_data{
+    float: left;
+    width: 800px;
+    height: 650px;
+    padding: 5px;
+    text-align:left;
+    margin-left: 50px;
+    transition-duration: 1s;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.formulario{
+    width: inherit;
+    box-shadow: 0px 11px 30px rgba(214, 214, 214, 0.75);
+    background: #ffffff9f;
+    border-color: #ffffff52;
+    border-width: 7px;
+    border-style: solid;
+    border-radius:18px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 50px;
+    transition-duration: 1s;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.formulario:hover{
+    background: #fffffff1;
+    border-color: #ffffffb9;
+}
+.button {
+    margin-top: 30px;
+    background: #02fd7f;
+    color: #1d1d1d;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: auto;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    position: relative;
+  
+}
+.button::after {
+    font-weight: 400;
+    position: absolute;
+    left: 80%;
+    top: 54%;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover {
+    background: #2b2bff;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #0000ff61;
+ 
+    color: #ffffff;
+}
+.button::after {
+    opacity: 1;
+    transition: all 0.5s;
+    color: #ffffff;
+}
+h2{
+    font-size: 14px;
+}
+h2.titulo{
+    font-size: 25px;
+    color: #009688;
+}
+.contenedortext{
+    width:300px;
+    height: 25px;
+    font-size: 20px;
+    border:2px solid #00BCD4;
+    border-radius:4px;
+    text-align: center;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+.contenedortext:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+label{
+    font-size: 20px;
+}
+.caja_de_busqueda{
+    width:300px;
+    height: 25px;
+    font-size: 20px;
+    border:2px solid #00BCD4;
+    border-radius:4px;
+    text-align: center;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+.caja_de_busqueda:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+.contenedorArea{
+    width:300px;
+    height: 100px;
+    font-size: 20px;
+    border:2px solid #00BCD4;
+    border-radius:4px;
+    text-align: justify;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+    resize: none;
+}
+.contenedorArea:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+img.simbolo{
+    height: 25px;
+    width: 25px;
+    margin-right: 10x;
+}
+a{
+    text-decoration: none;
+}
+/* TABLA */
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #009688;
+	border-bottom: solid 5px #016b60;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #035f56;
+	color: white;
+}
+
+td.bien{
+    background-color: #2cdd009b;
+}
+td.fallo{
+    background-color: #dd0000c7;
+}
+td.mejorar{
+    background-color: #fdd808ea;
+}
+
+.info_semaforo{
+    width: inherit;
+    box-shadow: 0px 11px 30px rgba(214, 214, 214, 0.75);
+    background: #ffffff9f;
+    border-color: #ffffff52;
+    border-width: 7px;
+    border-style: solid;
+    border-radius:18px;
+    padding: 5px;
+    margin-left: auto;
+    transition-duration: 1s;
+    text-align: center;
+}
+.info_semaforo:hover{
+    background: #fffffff1;
+    border-color: #ffffffb9;
+}
